@@ -1,0 +1,50 @@
+#:kivy 1.0
+
+<GameGrid>:
+    red_btn: red
+
+    Button:
+        id: red
+        background_color: "red"
+        background_normal: ""
+
+    Button:
+        id: yellow
+        background_color: "yellow"
+        background_normal: ""
+
+    Button:
+        id: green
+        background_color: "lime"
+        background_normal: ""
+
+    Button:
+        id: blue
+        background_color: "blue"
+        background_normal: ""
+
+    Button:
+        id: pink
+        background_color: "pink"
+        background_normal: ""
+
+    Button:
+        id: purple
+        background_color: "purple"
+        background_normal: ""
+    
+
+<MainWindow>:
+    orientation: "vertical"
+
+    Button:
+        text: "Start Game"
+
+    Label:
+        font_size: 40
+        font_weight: "bold"
+
+        text: "Blue"
+
+    GameGrid:
+        
